@@ -1,9 +1,6 @@
-// Code your solution here
 function findMatching(drivers, str) {
    return drivers.filter(name => name.toLowerCase() === str.toLowerCase())
 }
-
-
 
 function fuzzyMatch(drivers, str) {
    let fL = l => l.charAt(0).toLowerCase()
